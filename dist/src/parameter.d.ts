@@ -4,7 +4,7 @@
     Copyright 2019 Unvired Inc. All Rights Reserved.
     For commercial license details, please contact Unvired
 */
-export declare class Parameter {
+declare class Parameter {
     /**
         @member name - name of the parameter
         @member value - value of the parameter
@@ -20,3 +20,4 @@ export declare class Parameter {
     */
     isMedia(): boolean;
 }
+export { Parameter };

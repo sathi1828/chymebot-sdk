@@ -4,7 +4,7 @@
     Copyright 2019 Unvired Inc. All Rights Reserved.
     For commercial license details, please contact Unvired
 */
-export declare class FollowUp {
+declare class FollowUp {
     /**
         @member title  name of the input
         @member payload value associated with the input
@@ -16,3 +16,4 @@ export declare class FollowUp {
     */
     constructor(title: string, payload: string);
 }
+export { FollowUp };

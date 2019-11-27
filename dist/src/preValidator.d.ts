@@ -8,7 +8,7 @@ import { Cache } from './cache';
     Copyright 2019 Unvired Inc. All Rights Reserved.
     For commercial license details, please contact Unvired
 */
-export declare class PreValidator extends ValidatorBase {
+declare class PreValidator extends ValidatorBase {
     /**
         @constructor calls the base class and instantiates the cache
     */
@@ -37,3 +37,4 @@ export declare class PreValidator extends ValidatorBase {
     */
     abort(message: string): void;
 }
+export { PreValidator };

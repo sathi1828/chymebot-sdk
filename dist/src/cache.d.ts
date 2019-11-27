@@ -3,7 +3,7 @@ declare type contains = string | number | null;
 /**
     @class Cache - This class acts as redis client and can perform all the redis operations such as get/srt/delete etc.
 */
-export declare class Cache {
+declare class Cache {
     /**
         @member client - redis client
         @member defaultExpireTimeInSeconds - default expiry time used for redis key when the key has not been set expire time
@@ -51,4 +51,4 @@ export declare class Cache {
     */
     private getKey;
 }
-export {};
+export { Cache };

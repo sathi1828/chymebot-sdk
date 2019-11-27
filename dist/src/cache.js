@@ -13,6 +13,10 @@ var Cache = /** @class */ (function () {
         @constructor creates a new redis client in the sandbox context using the client from chyme context.
     */
     function Cache(client) {
+        this.messengerType = '';
+        this.conversationId = '';
+        this.chymeUser = '';
+        this.domain = '';
         this.client = client;
         this.defaultExpireTimeInSeconds = 60 * 1; //1 minute
     }

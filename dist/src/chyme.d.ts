@@ -8,7 +8,7 @@ import { Cache } from './cache';
 /**
     @class Chyme - this class is used for instanciating the sdk with suitable context(runner)
  */
-export declare class Chyme {
+declare class Chyme {
     /**
         @member cache - redis cache client
     */
@@ -23,3 +23,4 @@ export declare class Chyme {
     */
     constructor(runner: ApiBase);
 }
+export { Chyme };

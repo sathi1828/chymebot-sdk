@@ -8,7 +8,7 @@ import { Message } from './message';
     Copyright 2019 Unvired Inc. All Rights Reserved.
     For commercial license details, please contact Unvired
 */
-export declare class Event extends ApiBase {
+declare class Event extends ApiBase {
     /**
         @member input -
     */
@@ -33,3 +33,4 @@ export declare class Event extends ApiBase {
     */
     sendMessage(message: Message): boolean | void;
 }
+export { Event };

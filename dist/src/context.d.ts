@@ -4,7 +4,7 @@
     Copyright 2019 Unvired Inc. All Rights Reserved.
     For commercial license details, please contact Unvired
 */
-export declare class Context {
+declare class Context {
     /**
         @member key -
         @member value -
@@ -16,3 +16,4 @@ export declare class Context {
     */
     constructor(key: string, value: string);
 }
+export { Context };

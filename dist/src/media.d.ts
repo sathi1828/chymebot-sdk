@@ -4,7 +4,7 @@
     Copyright 2019 Unvired Inc. All Rights Reserved.
     For commercial license details, please contact Unvired
 */
-export declare class Media {
+declare class Media {
     /**
         @member mediaId - attachment id
         @member fileName - attachment name
@@ -18,3 +18,4 @@ export declare class Media {
     */
     constructor();
 }
+export { Media };

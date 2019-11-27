@@ -7,7 +7,7 @@ import { Cache } from './cache';
     Copyright 2019 Unvired Inc. All Rights Reserved.
     For commercial license details, please contact Unvired
 */
-export declare class ValidatorBase extends ApiBase {
+declare class ValidatorBase extends ApiBase {
     /**
         @member param it holds the name and value of a parameter
         @member validatedParams it holds all the parameters
@@ -25,3 +25,4 @@ export declare class ValidatorBase extends ApiBase {
     */
     getValidatedParams(param: string): string;
 }
+export { ValidatorBase };

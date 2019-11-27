@@ -8,7 +8,7 @@ import { Message } from './message';
     Copyright 2019 Unvired Inc. All Rights Reserved.
     For commercial license details, please contact Unvired
 */
-export declare class Command extends Event {
+declare class Command extends Event {
     /**
         @constructor - initialise the cache
     */
@@ -18,3 +18,4 @@ export declare class Command extends Event {
     */
     reply(message: Message): boolean | void;
 }
+export { Command };

@@ -4,7 +4,7 @@ import { Context } from './context';
 /**
     @class ApiBase - This class is root class for the sdk and initialises all the necessary params
 */
-export declare class ApiBase {
+declare class ApiBase {
     /**
         @member cache -  cache instance
         @member result - final result to be sent back to the user
@@ -36,3 +36,4 @@ export declare class ApiBase {
     */
     setResult(json: string): void;
 }
+export { ApiBase };

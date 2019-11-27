@@ -6,7 +6,7 @@ import { Parameter } from './parameter';
     Copyright 2019 Unvired Inc. All Rights Reserved.
     For commercial license details, please contact Unvired
 */
-export declare class MediaParameter extends Parameter {
+declare class MediaParameter extends Parameter {
     /**
         @member media - holds multiple attachments sent by the user
     */
@@ -21,3 +21,4 @@ export declare class MediaParameter extends Parameter {
     */
     isMedia(): boolean;
 }
+export { MediaParameter };
