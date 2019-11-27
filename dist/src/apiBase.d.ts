@@ -36,4 +36,4 @@ declare class ApiBase {
     */
     setResult(json: string): void;
 }
-export { ApiBase };
+export { ApiBase }
